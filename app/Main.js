@@ -10,7 +10,7 @@ function createWindow() {
     },
   });
 
- // mainWindow.setMenuBarVisibility(false)
+ mainWindow.setMenuBarVisibility(false)
  
   mainWindow.loadURL('http://localhost:3000');
 }
