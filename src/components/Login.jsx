@@ -33,7 +33,7 @@ function Login() {
                                 </Link>
                             </label>
                             <label className='label'>
-                            <Link href="#" className="label-text-alt" hover>
+                            <Link href="/signup" className="label-text-alt" hover>
                                         New to Octave? SignUp now →
                                 </Link>
                             </label>
