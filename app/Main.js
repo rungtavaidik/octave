@@ -5,13 +5,13 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
-      nodeIntegration: true,
-      contextIsolation: false,
+      nodeIntegration: false,
+      contextIsolation: true,
     },
   });
 
- mainWindow.setMenuBarVisibility(false)
- 
+  mainWindow.setMenuBarVisibility(false)
+
   mainWindow.loadURL('http://localhost:3000');
 }
 
